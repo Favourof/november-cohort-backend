@@ -1,4 +1,4 @@
-// // src/middleware/upload.js
+// // This is for local storage
 // const multer = require("multer");
 
 // // configure storage (optional, defaults to memory if not set)
@@ -14,10 +14,10 @@
 // // create the multer instance
 // const upload = multer({ storage: storage });
 
-// // export it
+// export it
 // module.exports = { upload };
 
-// src/middleware/upload.js
+// This is for cloudinary
 const multer = require("multer");
 
 // use memory storage so we can send buffer to Cloudinary
